@@ -59,3 +59,9 @@ we could do is leave one out, resulting in this:
 
 Of course, if we wanted to add the song we left out really badly, we could just
 eliminate it's other two light green cousins and add it. Two for one swap.
+
+## The solution
+
+As explained before, the idea is to create a non directed graph with the tracks we 
+have and find all the possible paths that include as many tracks as possible without
+any loops. As a result, we would have a track list with all harmonic transitions.
