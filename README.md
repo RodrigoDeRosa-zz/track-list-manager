@@ -64,4 +64,4 @@ eliminate it's other two light green cousins and add it. Two for one swap.
 
 As explained before, the idea is to create a non directed graph with the tracks we 
 have and find all the possible paths that include as many tracks as possible without
-any loops. As a result, we would have a track list with all harmonic transitions.
+any loops. As a result, we would have many track lists with all harmonic transitions.
