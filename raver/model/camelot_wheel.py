@@ -23,6 +23,7 @@ class CamelotWheel:
             key_number = ceil(n / 2)
             # Create a set with the current key's harmonic neighbors. For example -> 1A: {1B, 2A, 12A}
             harmonic_neighbors = {
+                f'{key_number}{key_letter}',
                 f'{key_number}{cls.__complement(key_letter)}',
                 f'{cls.__next(key_number)}{key_letter}',
                 f'{cls.__previous(key_number)}{key_letter}'
